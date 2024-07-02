@@ -1,0 +1,82 @@
+.services-container {
+  width: 100%;
+  height: 100%;
+}
+.services-left-content,
+.services-right-content {
+  padding: 0.5rem;
+}
+.services-title {
+  font-size: 1.5rem;
+  padding: 0.4rem 0;
+  font-weight: 700;
+}
+.services-paragraph {
+  line-height: 1.5rem;
+  padding: 0.4rem 0;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.first-service {
+  margin: 1.2rem 0;
+}
+.service-type {
+  display: flex;
+  height: 3.125rem;
+  gap: 0.8rem;
+}
+.service-type-name {
+  font-weight: 400;
+}
+.service-logo-wrapper {
+  height: 2.5rem;
+  width: 3rem;
+}
+.service-image {
+  height: 100%;
+  width: 100%;
+}
+.service-description {
+  padding: 0.3rem 0;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 769px) {
+  .services-title {
+    font-size: 2.8rem;
+  }
+  .services-paragraph{
+    font-size: 1.1rem;
+  }
+  .service-type-name {
+    font-size: 1.6rem;
+  }
+  .service-description {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1023px){
+  .services-wrapper {
+    display: flex;
+    padding: 4rem 6rem;
+    width: 100%;
+  }
+  .services-paragraph {
+    font-size: 0.9rem;
+  }
+  .services-left-content {
+    width: 90%;
+  }
+  .services-right-content {
+    justify-content: flex-end;
+    display: flex;
+  }
+  .services-right-content-wrapper {
+    width: 75%;
+  }
+  .service-description {
+    font-size: 0.9rem;
+  }
+}
